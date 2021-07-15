@@ -44,17 +44,17 @@ changeCurrency = () => {
     //document.getElementById("realToConvert").value = "R$ 0,00"
 
     if (select.value === "US$ Dólar americano") {
-        currencyImage.src = "/assets/us-image.png"
+        currencyImage.src = "./assets/us-image.png"
         currencyName.innerHTML = "Dólar Americano"
     }
 
     if (select.value === "€ Euro") {
-        currencyImage.src = "/assets/euro-image.png"
+        currencyImage.src = "./assets/euro-image.png"
         currencyName.innerHTML = "Euro"
     }
 
     if (select.value === "Bitcoin") {
-        currencyImage.src = "/assets/btc-image.png"
+        currencyImage.src = "./assets/btc-image.png"
         currencyName.innerHTML = "Bitcoin"
     }
 
